@@ -1,11 +1,11 @@
 # Site settings
-title: Purwadi's CV 
-description: Purwadi's CV
+title: Purwadi
+description: My Curriculum Vitae
 favicon: /assets/img/purwadi.jpg
 baseurl: 
 url: 
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+google_analytics: UA-69559226-3
 
 # Build settings
 markdown: kramdown
@@ -16,7 +16,7 @@ exclude: [vendor]
 author:
   name: Purwadi
   title: Web Developer
-  address: Bandung, Indonesia
+  address: Baros, Kota Cimahi, Jawa Barat, Indonesia
   email: purwadie97@gmail.com
   link: http://purwadipw.github.com
   weibo:
@@ -26,60 +26,91 @@ author:
   gavatar: /assets/img/purwadi.jpg
   stackoverflow: 
 #  stackoverflow: 5995426
-  workHistory:
-    - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
   educationHistory:
     - education1:
-      organization: Northeastern University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: SD Negeri 2 Karangnongko
+      location: Desa Karangnongko, Kecamatan. Mojosongo, Kabupaten Boyolali, Jawa Tengah
+      degree: Lulus
+      major: 
+      started: 2003
+      duration: (2003 - 2009)
+      description: 
+    - education2:
+      organization: Mts Negeri Boyolali
+      location: Jl. Kemuning, Banaran, Kec. Boyolali, Kabupaten Boyolali, Jawa Tengah
+      degree: Lulus
+      major: 
+      started: 2009
+      duration: (2009 - 2012)
+      description: 
+    - education3:
+      organization: SMK Teknologi Industri Pembangunan Cimahi
+      location: Jl. Mahar Martanegara No. 48 B, Kota Cimahi, Jawa Barat
+      degree: Lulus
+      major: Rekayasa Perangkat Lunak
+      started: 2012
+      duration: (2012 - 2013)
+      description: 
+  workHistory:
+    - work1:
+      company: D&X Company
+      location: Buah Batu, Bandung, Jawa Barat
+      title: Web Developer (Internship)
+      started: 2015
+      duration: (January - April)
+      description: 
+    - work2:
+      company: PT. Softindo Computech
+      location: Jl. PH.H. Mustofa, Surapati Core Blok F No.9, Bandung, Jawa Barat
+      title: Web Developer
+      started: 2015
+      duration: (May - December)
+      description: 
+    - work3:
+      company: PT. Aegis Ultima Teknologi
+      location: Jln. Sekelimus VI No. 19 Bandung, Jawa Barat
+      title: Fullstack Web Developer
+      started: 2015
+      duration: (December 2015 - present)
+      description: 
   languages:
     - language1:
-      name: Chinese
+      name: Indonesia
       proficiency: Native
     - language2:
-      name: English
-      proficiency: Professional
+      name: Jawa
+      proficiency: Native
     - language3:
-      name: Japanese
+      name: Sunda
+      proficiency: Native
+    - language4:
+      name: English
       proficiency: Limit
   programmingSkills:
     - skill1:
       name: HTML
       percentage: 100%
     - skill2:
-      name: Bootstrap
-      percentage: 90%
+      name: CSS
+      percentage: 100%
     - skill3:
-      name: JavaScript
+      name: Jquery
+      percentage: 70%
+    - skill3:
+      name: Angular.js
       percentage: 70%
     - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
-      name: Java/Java EE
+      name: PHP
       percentage: 90%
+    - skill5:
+      name: Codeigniter
+      percentage: 80%
+    - skill6:
+      name: Laravel
+      percentage: 70%
+    - skill7:
+      name: Mysql
+      percentage: 90%
+    - skill8:
+      name: Linux
+      percentage: 60%
