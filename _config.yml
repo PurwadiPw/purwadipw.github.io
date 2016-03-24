@@ -1,7 +1,7 @@
 # Site settings
 title: Purwadi
 description: My Curriculum Vitae
-favicon: /assets/img/purwadi.jpg
+favicon: /assets/img/icon.png
 baseurl: 
 url: 
 rss_url: /pages/atom.xml
