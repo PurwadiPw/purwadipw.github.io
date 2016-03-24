@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-8 col-md-push-2">
+            <h3 class="title with-icon">
+            	<span class="fa fa-eye cat-title"></span>{{ page.title }}
+            </h3>
+            <div class="pull-right"> 
+            	Write with ♥ by {{ site.author.name }} on {{ page.date | date: "%B %d, %Y" }}
+            </div>
+            <div class="clearfix"></div>
+            <div class="well well-post">
+            	{{ content }}
+            </div>
+    </div>
 </div>

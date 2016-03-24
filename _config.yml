@@ -7,6 +7,10 @@ url:
 rss_url: /pages/atom.xml
 google_analytics: UA-69559226-3
 
+# Pagination
+paginate: 1
+paginate_path: "/blog/page:num/"
+
 # Build settings
 markdown: kramdown
 

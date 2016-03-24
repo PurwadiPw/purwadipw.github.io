@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-8 col-md-push-2">
+
+            <h3 class="title with-icon"><span class="fa fa-pencil cat-title"></span>My blog</h3>
+            <ul class="timeline">
+                {% for post in site.posts %}
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge info">{{ post.initial }}</div>
+                        <div class="timeline-panel grid-block">
+                            <div class="timeline-heading">
+                                {% if post.title %}
+                                    <h4 class="timeline-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                {% endif %}
+                                <p>
+                                    <small class="text-muted">
+                                        {% if post.date %}
+                                            <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time> |
+                                        {% endif %}
+                                        {% if post.place %}
+                                        	<i class="fa fa-map-marker"></i>  {{ post.place }}
+                                        {% endif %}
+                                    </small>
+                                </p>
+                            </div>
+                            <div class="timeline-body">
+                                {% if post.excerpt %} 
+                                	<p class="excerpt">
+                                		{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}
+                                	</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+
+    </div>
+</div>

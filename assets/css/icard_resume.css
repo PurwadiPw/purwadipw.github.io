@@ -422,3 +422,6 @@ hr {
 .badge-right-float {
     float: right;
 }
+.well-post{
+    padding: 35px;
+}
