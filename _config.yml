@@ -116,5 +116,8 @@ author:
       name: Mysql
       percentage: 90%
     - skill8:
+      name: Ruby on Rails
+      percentage: 20%
+    - skill9:
       name: Linux
-      percentage: 60%
+      percentage: 70%
