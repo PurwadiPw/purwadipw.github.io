@@ -79,13 +79,13 @@ author:
       description: 
   languages:
     - language1:
-      name: Indonesia
+      name: Indonesian
       proficiency: Native
     - language2:
-      name: Jawa
+      name: Javanese
       proficiency: Native
     - language3:
-      name: Sunda
+      name: Sundanese
       proficiency: Native
     - language4:
       name: English
