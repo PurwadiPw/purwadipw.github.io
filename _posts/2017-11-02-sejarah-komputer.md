@@ -37,9 +37,13 @@ Sejarah perkembangan komputer dibagi dalam 2 tahap, yaitu :
 
 ### Sebelum tahun 1940
 1. **Abacus**  
+	Sempoa atau Abacus adalah alat kuno untuk penghitungan yang terbuat dari rangka kayu dengan sederetan poros yang berisi manik - manik yang bisa di geser. Alat ini digunakan untuk melakukan operasi aritmetika seperti penjumlahan, pengurangan, perkalian pembagian dan akar kuadrat. 
 2. **Kalkulator Roda Numerik**  
+	Ditemukan oleh Blaise Pascal 1692. Pada tahun 1642, seorang pemuda berumur 18 tahun bernama BLAISE PASCAL (1623-1662) menemukan kalkulator roda numerik (numerical wheel calculator) yang bernama PASCALINE. PASCALINE berbentuk kotak persegi berwarnakuning dan memiliki delapan roda putar bergerigi untuk menjumlahkan bilangan hingga delapan digit. Namun alat ini masih memiliki kelemahan yaitu hanya bisa melakukan penjumlahan.
 3. **Kalkulator Roda Numerik 2**  
+	Ditemukan oleh Gottfred Wilhem von Leibniz, Pada tahun 1694. Tahun 1694, seorang matematikawan dan filsuf Jerman, Gottfred Wilhem von Leibniz (1646-1716) memperbaiki Pascaline dengan membuat mesin yang dapat mengalikan.Sama seperti pendahulunya, alat mekanik ini bekerja dengan menggunakan roda-roda gerigi. Dengan mempelajari catatan dan gambar-gambar yang dibuat oleh Pascal, Leibniz dapat menyempurnakan alatnya.
 4. **Kalkulator Mekanik**  
+	Charles Xavier Thomas de Colmar Menemukan mesin yang dapat melakukan empat fungsi aritmatik dasar. Kalkulator mekanik Colmar, arithometer, mempresentasikan pendekatan yang lebih praktis dalam kalkulasi karena alat tersebut dapat melakukan penjumlahan, pengurangan, perkalian, dan pembagian. Dengan kemampuannya, arithometer banyak dipergunakan hingga masa Perang Dunia I. Bersama-sama dengan Pascal dan Leibniz, Colmar membantu membangun era komputasi mekanikal.
 
 ### Setelah tahun 1940
 Pada periode ini komputer dibagi menjadi 5 generasi yaitu :
