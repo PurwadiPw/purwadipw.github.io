@@ -2,8 +2,8 @@
 layout: post
 title: Sejarah Internet
 excerpt: "Di postingan kali ini saya akan menjelaskan tentang Sejarah Internet."
-modified: 2017-11-02
-initial: D
+modified: 2017-11-03
+initial: S
 place: Bandung, Indonesia
 ---
 

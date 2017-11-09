@@ -2,8 +2,8 @@
 layout: post
 title: Internet Of Things
 excerpt: "Di postingan kali ini saya akan menjelaskan tentang Internet Of Things."
-modified: 2017-11-02
-initial: D
+modified: 2017-11-03
+initial: I
 place: Bandung, Indonesia
 ---
 

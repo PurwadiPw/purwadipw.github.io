@@ -2,8 +2,8 @@
 layout: post
 title: Sejarah Komputer
 excerpt: "Di postingan kali ini saya akan menjelaskan tentang Sejarah Komputer."
-modified: 2017-11-02
-initial: D
+modified: 2017-11-04
+initial: S
 place: Bandung, Indonesia
 ---
 

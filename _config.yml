@@ -111,10 +111,10 @@ author:
       percentage: 90%
     - skill5:
       name: Codeigniter
-      percentage: 80%
+      percentage: 85%
     - skill6:
       name: Laravel
-      percentage: 70%
+      percentage: 75%
     - skill7:
       name: Mysql
       percentage: 90%
@@ -123,4 +123,4 @@ author:
       percentage: 20%
     - skill9:
       name: Linux
-      percentage: 70%
+      percentage: 85%

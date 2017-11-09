@@ -2,7 +2,7 @@
 layout: post
 title: Data dan Informasi
 excerpt: "Di postingan kali ini saya akan menjelaskan tentang Data dan Informasi."
-modified: 2017-11-02
+modified: 2017-11-03
 initial: D
 place: Bandung, Indonesia
 ---
