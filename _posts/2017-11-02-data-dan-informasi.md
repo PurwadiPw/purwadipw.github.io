@@ -12,23 +12,23 @@ place: Bandung, Indonesia
 ## Data
 
 1. [Definisi data](#definisi-data)
-2. Klasifikasi data berdasarkan sumber data
-3. Klasifikasi data berdasarkan jenisnya
-4. Jenis-jenis data menurut cara memperolehnya
-5. Jenis-jenis data berdasarkan sifat data
-6. Jenis-jenis data menurut cara pengumpulannya
-7. Kriteria data yang bernilai
-8. Metode yang dapat digunakan untuk pengumpulan data
-9. Pengolahan data
+2. [Klasifikasi data berdasarkan sumber data](#klasifikasi-data-berdasarkan-sumber-data)
+3. [Klasifikasi data berdasarkan jenisnya](#klasifikasi-data-berdasarkan-jenisnya)
+4. [Jenis-jenis data menurut cara memperolehnya](#jenis-jenis-data-menurut-cara-memperolehnya)
+5. [Jenis-jenis data berdasarkan sifat data](#jenis-jenis-data-berdasarkan-sifat-data)
+6. [Jenis-jenis data menurut cara pengumpulannya](#jenis-jenis-data-menurut-cara-pengumpulannya)
+7. [Kriteria data yang bernilai](#kriteria-data-yang-bernilai)
+8. [Metode yang dapat digunakan untuk pengumpulan data](#metode-yang-dapat-digunakan-untuk-pengumpulan-data)
+9. [Pengolahan data](#pengolahan-data)
 
 ## Informasi
 
-1. Definisi informasi 
-2. Karateristik informasi
-3. Informasi dapat dikatakan baik jika memiliki karakteristik sebagai berikut
-4. Ciri-ciri informasi
-5. Jenis-jenis informasi
-6. Contoh data dan informasi
+1. [Definisi informasi](#definisi-informasi)
+2. [Karateristik informasi](#karateristik-informasi)
+3. [Informasi dapat dikatakan baik jika memiliki-karakteristik sebagai berikut](#informasi-dapat-dikatakan-baik-jika-memiliki-karakteristik-sebagai-berikut)
+4. [Ciri-ciri informasi](#ciri-ciri-informasi)
+5. [Jenis-jenis informasi](#jenis-jenis-informasi)
+6. [Contoh data dan informasi](#contoh-data-dan-informasi)
 
 ## Data
 
