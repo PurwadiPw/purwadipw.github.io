@@ -1,20 +1,160 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="no-js">
+<!--<![endif]-->
 
-  {% include head.html %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    {% include header.html %}
+    <link rel="icon" type="image/png" href="{{ site.favicon }}">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/animate.min.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/jquery.mCustomScrollbar.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/prettyPhoto.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/colors/lightseagreen.css" | prepend: site.baseurl }}" id="colors-style" />
+</head>
+
+<body class="gray-bg">
+
+    <div id="preloader"><div id="spinner"></div></div>
+
+    <!-- .wrapper -->
+    <div class="wrapper">
+
+        <!--- .Content -->
+        <section class="tab-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <!-- profile -->
+                            <div class="col-md-3 widget-profil">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+                                        <div class="circle-img" id="pic_prof_2" style="display:block"></div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                                        <div id="profile_info">
+                                            <h1 id="name" class="transition-02">Purwadi</h1>
+                                            <h4 class="line">WEB DEVELOPER</h4>
+                                            <h6><span class="fa fa-map-marker"></span> Bandung, Indonesia</h6>
+                                        </div>
+
+                                        <div id="profile_desc">
+                                            <p>
+                                                The code writer still has to learn what to code.
+                                            </p>
+                                            <p>
+                                                Open Source Enthusiast. A fan of Laravel and Vue.js
+                                            </p>
+                                            <p>
+                                                And just young man that did not stop to learn.
+                                            </p>
+                                        </div>
+
+                                        <div id="profile_social">
+                                            <h6>My Social Profiles</h6>
+
+                                            <a href="https://www.facebook.com/purwadii.37"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://twitter.com/Purwadi073"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/purwadi37"><i class="fa fa fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/in/purwadipw"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://plus.google.com/+PurwadiPw"><i class="fa fa-google-plus"></i></a>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end profile -->
+
+                            <!-- flexy_content -->
+                            <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+                                <!-- verticalTab menu -->
+                                <div id="verticalTab">
+
+                                    <ul class="resp-tabs-list">
+                                        <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile" data-toggle="tooltip" data-placement="right" title="Profile">
+                                            <span class="tite-list">profile</span>
+                                            <i class="fa fa-user icon_menu icon_menu_active"></i>
+                                        </li>
+
+                                        <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume" data-toggle="tooltip" data-placement="right" title="Resume">
+                                            <span class="tite-list">resume</span>
+                                            <i class="fa fa-tasks icon_menu"></i>
+                                        </li>
+
+                                        <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio" data-toggle="tooltip" data-placement="right" title="Portfolio">
+                                            <span class="tite-list">portfolio</span>
+                                            <i class="fa fa-briefcase icon_menu"></i>
+                                        </li>
+
+                                        <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog" data-toggle="tooltip" data-placement="right" title="My Blog">
+                                            <span class="tite-list">blog</span>
+                                            <i class="fa fa-bullhorn icon_menu"></i>
+                                        </li>
+
+                                        <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" data-toggle="tooltip" data-placement="right" title="Contact" style="margin-bottom: 48px !important;">
+                                            <span class="tite-list">contact</span>
+                                            <i class="fa fa-envelope icon_menu"></i>
+                                        </li>
+
+                                        <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
+                                        <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+                                    </ul>
+                                    <!-- /resp-tabs-list -->
+
+                                    <!-- resp-tabs-container -->
+                                    <div class="resp-tabs-container">
+
+                                        {% include profile.html %}
+
+                                        {% include resume.html %}
+
+                                        {% include portfolio.html %}
+
+                                        {% include blog.html %}
+
+                                        {% include contact.html %}
+
+                                    </div>
+                                    <!-- End #resp-tabs-container -->
+
+                                </div>
+                                <!-- End verticalTab -->
+                            </div>
+                            <!-- End flexy_content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End container -->
+
+        </section>
+        <!-- End Content -->
+
     </div>
+    <!-- End wrapper -->
 
-    {% include footer.html %}
-	{% include googleanalytics.html %}
-  </body>
+    <script type="text/javascript" src="{{ "/assets/js/plugins.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&key=AIzaSyDm77s0ZADOeB1Wx-NKuMkoFpxs9YVmGdU"></script>
+    <script type="text/javascript" src="{{ "/assets/js/gmaps.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+    
+    {% include ga.html %}
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</body>
 
 </html>

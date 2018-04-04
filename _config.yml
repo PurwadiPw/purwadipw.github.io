@@ -1,126 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Purwadi
 description: My Curriculum Vitae
-favicon: /assets/img/icon.png
-baseurl: 
-url: 
-rss_url: /pages/atom.xml
+favicon: /assets/images/favicon/icon.png
+email: purwadie97@gmail.com
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-69559226-3
-
-# Pagination
-paginate: 1
-paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
 
-exclude: [vendor]
-
-# Author settings
-author:
-  name: Purwadi
-  title: Web Developer
-  address: Baros, Kota Cimahi, Jawa Barat, Indonesia
-  email: purwadie97@gmail.com
-  link: http://purwadipw.github.com
-  weibo:
-  github: PurwadiPw
-  linkedin: purwadipw
-  twitter: Purwadi073
-  gavatar: /assets/img/purwadi.jpg
-  stackoverflow: 
-#  stackoverflow: 5995426
-  educationHistory:
-    - education1:
-      organization: SD Negeri 2 Karangnongko
-      location: Desa Karangnongko, Kecamatan. Mojosongo, Kabupaten Boyolali, Jawa Tengah
-      degree: Lulus
-      major: 
-      started: 2003
-      duration: (2003 - 2009)
-      description: 
-    - education2:
-      organization: Mts Negeri Boyolali
-      location: Jl. Kemuning, Banaran, Kec. Boyolali, Kabupaten Boyolali, Jawa Tengah
-      degree: Lulus
-      major: 
-      started: 2009
-      duration: (2009 - 2012)
-      description: 
-    - education3:
-      organization: SMK Teknologi Industri Pembangunan Cimahi
-      location: Jl. Mahar Martanegara No. 48 B, Kota Cimahi, Jawa Barat
-      degree: Lulus
-      major: Rekayasa Perangkat Lunak
-      started: 2012
-      duration: (2012 - 2013)
-      description: 
-  workHistory:
-    - work1:
-      company: D&X Company
-      location: Buah Batu, Bandung, Jawa Barat
-      title: Web Developer (Internship)
-      started: 2015
-      duration: (January - April)
-      description: 
-    - work2:
-      company: PT. Softindo Computech
-      location: Jl. PH.H. Mustofa, Surapati Core Blok F No.9, Bandung, Jawa Barat
-      title: Web Developer
-      started: 2015
-      duration: (May - December)
-      description: 
-    - work3:
-      company: PT. Aegis Ultima Teknologi
-      location: Jln. Sekelimus VI No. 19 Bandung, Jawa Barat
-      title: Fullstack Web Developer
-      started: 2015
-      duration: (December 2015 - present)
-      description: 
-  languages:
-    - language1:
-      name: Indonesian
-      proficiency: Native
-    - language2:
-      name: Javanese
-      proficiency: Native
-    - language3:
-      name: Sundanese
-      proficiency: Native
-    - language4:
-      name: English
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: HTML
-      percentage: 100%
-    - skill2:
-      name: CSS
-      percentage: 100%
-    - skill3:
-      name: Jquery
-      percentage: 70%
-    - skill3:
-      name: Angular.js
-      percentage: 70%
-    - skill4:
-      name: PHP
-      percentage: 90%
-    - skill5:
-      name: Codeigniter
-      percentage: 85%
-    - skill6:
-      name: Laravel
-      percentage: 75%
-    - skill7:
-      name: Mysql
-      percentage: 90%
-    - skill8:
-      name: Ruby on Rails
-      percentage: 20%
-    - skill9:
-      name: Linux
-      percentage: 85%
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
